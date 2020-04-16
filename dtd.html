@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="dtd.css">
+	<title>Document type definition</title>
+</head>
+<body>
+	<a href="C:\Users\Prafull Gururani\Desktop\web\Web Technology\xml.html" class="previous">&laquo; Previous</a>
+<h1> Document Type definition(DTD)</h1>
+<p>A DTD defines the structure and the legal elements and attributes of an XML document.
+</p>
+<img class="i" style="float: left"  src="dtd.jpg">
+<ol>
+<li><strong>DTD</strong> starts with <em>&lt;!DOCTYPE delimiter</em>.</li>
+<li>An <strong>element</strong> tells the parser to parse the document from the specified root element.</li>
+<li><strong>DTD identifier</strong> is an identifier for the document type definition, which may be the path to a file on the system or URL to a file on the internet. If the DTD is pointing to external path, it is called <strong>external subset</strong>.</li>
+<li>The <strong>square brackets [ ]</strong> enclose an optional list of entity declarations called <strong>internal subset</strong>.</li>
+</ol>
+<hr noshade="">
+<h2>Internal DTD</h2>
+<p>A DTD is referred to as an internal DTD if elements are declared within the XML files. To reference it as internal DTD, standalone attribute in XML declaration must be set to yes. This means the declaration works independent of external source.</p>
+<img class="img" src="internal.jpg">
+<hr noshade="">
+<h2>External DTD</h2>
+<p>In external DTD elements are declared outside the XML file. They are accessed by specifying the system attributes which may be either the legal .dtd file or a valid URL. To reference it as external DTD, standalone attribute in the XML declaration must be set as no. This means, declaration includes information from the external source.</p>
+<img style="float: left" src="external1.jpg">
+<!-- <span><strong style="text-align: right" >Address.dtd</strong></span> -->
+<img class ="dx" style="float: right" src="external2.jpg">
+<br><br><br><br><br><br>
+<br>
+<hr noshade="">
+<hr noshade="">
+
+
+</body>
+</html>
